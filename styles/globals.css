@@ -1,0 +1,24 @@
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+body { background: #0b0b10; color: #eaeaf0; }
+.container { max-width: 980px; margin: 0 auto; padding: 16px; }
+header.container { padding-top: 32px; padding-bottom: 8px; }
+h1 { font-size: 28px; margin: 0; }
+.subtitle { opacity: 0.8; margin-top: 4px; }
+.footer { opacity: 0.7; padding-bottom: 32px; }
+.card { background: #11121a; border: 1px solid #1f2230; border-radius: 10px; padding: 16px; margin: 16px 0; box-shadow: 0 4px 22px rgba(0,0,0,.2); }
+.label { display: block; font-weight: 600; margin-bottom: 8px; }
+.input { width: 100%; padding: 12px 14px; border-radius: 8px; border: 1px solid #2b2f44; background: #0d0f19; color: #eaeaf0; }
+.groups { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 12px; }
+.checkbox { display: inline-flex; align-items: center; gap: 8px; background: #0d0f19; border: 1px solid #2b2f44; border-radius: 999px; padding: 6px 10px; }
+.button { margin-top: 14px; background: #4f46e5; color: white; padding: 10px 14px; border: 0; border-radius: 8px; cursor: pointer; font-weight: 600; }
+.button:hover { background: #4338ca; }
+.error { color: #ff6b6b; }
+.results { display: grid; gap: 8px; }
+.result { padding: 8px 0; border-top: 1px dashed #2b2f44; }
+.result:first-child { border-top: 0; }
+.title { color: #7dd3fc; text-decoration: none; }
+.title:hover { text-decoration: underline; }
+.link { color: #93c5fd; font-size: 12px; opacity: .9; word-break: break-all; }
+.snippet { margin: 6px 0 0; opacity: .95; }
